@@ -281,9 +281,9 @@ public:
 
     ~DNS_SERVER()
     {
-        WSACleanup();
         closesocket(this->sock);
         closesocket(this->out_sock);
+        WSACleanup();
     }
 };
 
