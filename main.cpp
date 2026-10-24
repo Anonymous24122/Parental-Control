@@ -20,13 +20,20 @@
 
 std::unordered_map<std::string, bool> domains =
 {
-    {
-        "www.youtube.com", 1
-    },
-    {
-        "www.google.com", 1
-    }
+    // --- Rdzeń systemu operacyjnego i sieci (Inaczej Windows uzna, że nie ma internetu) ---
+    {"msftconnecttest.com", 1}, // Sprawdzanie stanu sieci w Windows
+    {"://gstatic.com", 1}, // Sprawdzanie stanu sieci w Chrome/Android
+
+    // --- YouTube i Google ---
+    {"youtube.com", 1},
+    {"google.com", 1},
+    {"googlevideo.com", 1}, // Wideo i audio
+    {"ytimg.com", 1},       // Miniatury i style CSS
+    {"ggpht.com", 1},       // Awatary i zdjęcia profilowe
+    {"gstatic.com", 1},     // Czcionki i biblioteki JS od Google
+    {"googleapis.com", 1}   // API wewnętrzne YouTube
 };
+
 
 auto ToWstring = [](std::string str) -> std::wstring
 {
@@ -202,6 +209,21 @@ public:
              int s = sizeof(addr),
                  bytes_received = 0;
 
+            auto GetBaseDomain = [](const std::string& full_address) -> std::string
+            {
+                size_t last_dot = full_address.rfind('.');
+                if (last_dot == std::string::npos) return full_address;
+
+                size_t second_last_dot = full_address.rfind('.', last_dot - 1);
+
+                if (second_last_dot == std::string::npos) {
+                    return full_address;
+                }
+
+                return full_address.substr(second_last_dot + 1);
+            };
+
+
              while(true)
              {
                  s = sizeof(addr);
@@ -230,8 +252,10 @@ public:
                     WordIndex--;
                 }
 
-                if (domains.find(address) == domains.end())
+                if (domains.find(GetBaseDomain(address)) == domains.end())
                 {
+                    buffer[2] = 0x81;
+                    buffer[3] = 0x83;
                     if (error_handle(sendto(this->sock, buffer, bytes_received, 0, reinterpret_cast<sockaddr*>(&addr), s))) return;
                 }
                 else
@@ -267,6 +291,8 @@ int main()
 {
     _setmode(_fileno(stdout), _O_U16TEXT);
     DNS_SERVER server;
+
+
 
     return 0;
 }
