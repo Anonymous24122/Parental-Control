@@ -156,7 +156,7 @@ public:
     {
         Promise<bool, DWORD> promise
         ([this](Promise<bool, DWORD>::_res_type res,
-            Promise<bool, DWORD>::_rej_type rej)
+                Promise<bool, DWORD>::_rej_type rej)
          {
              auto error_handle = [&](int result, DWORD ignore = WSAECONNRESET)
                 {
