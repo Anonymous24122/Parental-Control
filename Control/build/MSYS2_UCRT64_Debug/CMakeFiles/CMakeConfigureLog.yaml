@@ -1,0 +1,237 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Debug/CMakeFiles/CMakeScratch/TryCompile-j7b9qg"
+      binary: "C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Debug/CMakeFiles/CMakeScratch/TryCompile-j7b9qg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Debug/CMakeFiles/CMakeScratch/TryCompile-j7b9qg'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_47bc3
+        [1/2] C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-16.2.0/configure --prefix=/ucrt64 --with-sysroot=/ucrt64 --with-build-sysroot=D:/M/msys64/ucrt64 --with-local-prefix=/local --with-native-system-header-dir=/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (Rev3, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/ -isysroot C:/msys64/ucrt64/bin/../../ucrt64 -D_REENTRANT C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47bc3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\przem\\AppData\\Local\\Temp\\cc03TEyh.s
+        GNU C++20 (Rev3, Built by MSYS2 project) version 16.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include"
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../../ucrt64/local/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed
+         C:/msys64/ucrt64/bin/../../ucrt64/include
+        End of search list.
+        Compiler executable checksum: 65e9ecbaf27bf5dd79794e6f0ffce751
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\przem\\AppData\\Local\\Temp\\cc03TEyh.s
+        GNU assembler version 2.47 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.47.20260726
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../../ucrt64/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../;C:/msys64/ucrt64/bin/../../ucrt64/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_47bc3.exe -Wl,--out-implib,libcmTC_47bc3.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        \x1b[m\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[36mprzem\x1b[m@\x1b[1m\x1b[36mDELLVPRO\x1b[m
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    --------------
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mOS\x1b[m: \x1b[mWindows 11 Pro (25H2) x86_64
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mHost\x1b[m: \x1b[mLatitude 7430
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mKernel\x1b[m: \x1b[mWIN32_NT 10.0.26200.9711
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mUptime\x1b[m: \x1b[m33 mins
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mShell\x1b[m: \x1b[mCMD 10.0.26100.9549
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mDisplay (CMN14E8)\x1b[m: \x1b[m1920x1080 @ 1.25x in 14", 60 Hz [Built-in]
+                                                \x1b[m\x1b[1m\x1b[33mWM\x1b[m: \x1b[mDesktop Window Manager 10.0.26100.9549
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mWM Theme\x1b[m: \x1b[mCustom - Blue (System: Dark, Apps: Dark)
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mTheme\x1b[m: \x1b[mFluent
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mIcons\x1b[m: \x1b[mRecycle Bin
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mFont\x1b[m: \x1b[mSegoe UI (15pt) [Caption / Menu / Message / Status]
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mCursor\x1b[m: \x1b[mDomy┼Ťlny Windows (32px)
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mTerminal\x1b[m: \x1b[mqtcreator 20.0.2.0
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mCPU\x1b[m: \x1b[m12th Gen Intel(R) Core(TM) i7-1270P (8+8) @ 4.80 GHz
+        \x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mGPU\x1b[m: \x1b[mIntel(R) Iris(R) Xe Graphics (128.00 MiB) [Integrated]
+                                                \x1b[m\x1b[1m\x1b[33mMemory\x1b[m: \x1b[m14.38 GiB / 31.44 GiB (\x1b[32m46%\x1b[m)
+                                                \x1b[m\x1b[1m\x1b[33mSwap\x1b[m: \x1b[m167.86 MiB / 2.00 GiB (\x1b[32m8%\x1b[m)
+                                                \x1b[m\x1b[1m\x1b[33mDisk (C:\\)\x1b[m: \x1b[m208.54 GiB / 475.77 GiB (\x1b[32m44%\x1b[m) - NTFS
+                                                \x1b[m\x1b[1m\x1b[33mBattery (DELL H4PVC22)\x1b[m: \x1b[m\x1b[93m35%\x1b[m [AC Connected, Charging]
+                                                \x1b[m\x1b[1m\x1b[33mLocale\x1b[m: \x1b[mC
+                                                \x1b[m\x1b[1m\x1b[33mVulkan\x1b[m: \x1b[m1.4.323 - Intel Corporation [101.7088]
+                                                \x1b[m\x1b[1m\x1b[33mOpenGL\x1b[m: \x1b[m4.6.0 - Build 32.0.101.7088
+                                                \x1b[m\x1b[1m\x1b[33mOpenCL\x1b[m: \x1b[m3.0 D3D12 Implementation
+                                                \x1b[m\x1b[1m\x1b[33mTPM\x1b[m: \x1b[mI/O-port or MMIO TPM 2.0
+                                                \x1b[m\x1b[1m\x1b[33mVersion\x1b[m: \x1b[mfastfetch 2.67.1 (x86_64)
+                                                
+                                                \x1b[m\x1b[30mÔľłÔľłÔľł\x1b[31mÔľłÔľłÔľł\x1b[32mÔľłÔľłÔľł\x1b[33mÔľłÔľłÔľł\x1b[34mÔľłÔľłÔľł\x1b[35mÔľłÔľłÔľł\x1b[36mÔľłÔľłÔľł\x1b[37mÔľłÔľłÔľł\x1b[m
+                                                \x1b[90mÔľłÔľłÔľł\x1b[91mÔľłÔľłÔľł\x1b[92mÔľłÔľłÔľł\x1b[93mÔľłÔľłÔľł\x1b[94mÔľłÔľłÔľł\x1b[95mÔľłÔľłÔľł\x1b[96mÔľłÔľłÔľł\x1b[97mÔľłÔľłÔľł\x1b[m
+        \x1b[mUsing built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-16.2.0/configure --prefix=/ucrt64 --with-sysroot=/ucrt64 --with-build-sysroot=D:/M/msys64/ucrt64 --with-local-prefix=/local --with-native-system-header-dir=/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (Rev3, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../../ucrt64/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../;C:/msys64/ucrt64/bin/../../ucrt64/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47bc3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47bc3.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\przem\\AppData\\Local\\Temp\\ccUOYFgd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic -o cmTC_47bc3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LC:/msys64/ucrt64/bin/../../ucrt64/lib -v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_47bc3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+        collect2 version 16.2.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\przem\\AppData\\Local\\Temp\\ccUOYFgd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic -o cmTC_47bc3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LC:/msys64/ucrt64/bin/../../ucrt64/lib -v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_47bc3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.47.20260726
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47bc3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47bc3.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+          add: [C:/msys64/ucrt64/bin/../../ucrt64/include]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0] ==> [C:/msys64/ucrt64/include/c++/16.2.0]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32] ==> [C:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward] ==> [C:/msys64/ucrt64/include/c++/16.2.0/backward]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+        collapse include dir [C:/msys64/ucrt64/bin/../../ucrt64/include] ==> [C:/msys64/ucrt64/include]
+        implicit include dirs: [C:/msys64/ucrt64/include/c++/16.2.0;C:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32;C:/msys64/ucrt64/include/c++/16.2.0/backward;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed;C:/msys64/ucrt64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Debug/CMakeFiles/CMakeScratch/TryCompile-j7b9qg']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_47bc3]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/ucrt64 --with-sysroot=/ucrt64 --with-build-sysroot=D:/M/msys64/ucrt64 --with-local-prefix=/local --with-native-system-header-dir=/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (Rev3  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/ -isysroot C:/msys64/ucrt64/bin/../../ucrt64 -D_REENTRANT C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47bc3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\przem\\AppData\\Local\\Temp\\cc03TEyh.s]
+        ignore line: [GNU C++20 (Rev3  Built by MSYS2 project) version 16.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../../ucrt64/local/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/x86_64-w64-mingw32]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include/c++/16.2.0/backward]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+        ignore line: [ C:/msys64/ucrt64/bin/../../ucrt64/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 65e9ecbaf27bf5dd79794e6f0ffce751]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\przem\\AppData\\Local\\Temp\\cc03TEyh.s]
+        ignore line: [GNU assembler version 2.47 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.47.20260726]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../../ucrt64/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../]
+        ignore line: [C:/msys64/ucrt64/bin/../../ucrt64/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_47bc3.exe -Wl --out-implib libcmTC_47bc3.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [\x1b[m\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[36mprzem\x1b[m@\x1b[1m\x1b[36mDELLVPRO\x1b[m;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    --------------;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mOS\x1b[m: \x1b[mWindows 11 Pro (25H2) x86_64;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mHost\x1b[m: \x1b[mLatitude 7430;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mKernel\x1b[m: \x1b[mWIN32_NT 10.0.26200.9711;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mUptime\x1b[m: \x1b[m33 mins;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mShell\x1b[m: \x1b[mCMD 10.0.26100.9549;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mDisplay (CMN14E8)\x1b[m: \x1b[m1920x1080 @ 1.25x in 14"  60 Hz [Built-in];                                        \x1b[m\x1b[1m\x1b[33mWM\x1b[m: \x1b[mDesktop Window Manager 10.0.26100.9549;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mWM Theme\x1b[m: \x1b[mCustom - Blue (System: Dark  Apps: Dark);\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mTheme\x1b[m: \x1b[mFluent;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mIcons\x1b[m: \x1b[mRecycle Bin;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mFont\x1b[m: \x1b[mSegoe UI (15pt) [Caption / Menu / Message / Status];\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mCursor\x1b[m: \x1b[mDomy┼Ťlny Windows (32px);\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mTerminal\x1b[m: \x1b[mqtcreator 20.0.2.0;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mCPU\x1b[m: \x1b[m12th Gen Intel(R) Core(TM) i7-1270P (8+8) @ 4.80 GHz;\x1b[1m\x1b[34m\x1b[34m/////////////////  \x1b[34m/////////////////\x1b[m    \x1b[m\x1b[1m\x1b[33mGPU\x1b[m: \x1b[mIntel(R) Iris(R) Xe Graphics (128.00 MiB) [Integrated];                                        \x1b[m\x1b[1m\x1b[33mMemory\x1b[m: \x1b[m14.38 GiB / 31.44 GiB (\x1b[32m46%\x1b[m);                                        \x1b[m\x1b[1m\x1b[33mSwap\x1b[m: \x1b[m167.86 MiB / 2.00 GiB (\x1b[32m8%\x1b[m);                                        \x1b[m\x1b[1m\x1b[33mDisk (C:\\)\x1b[m: \x1b[m208.54 GiB / 475.77 GiB (\x1b[32m44%\x1b[m) - NTFS;                                        \x1b[m\x1b[1m\x1b[33mBattery (DELL H4PVC22)\x1b[m: \x1b[m\x1b[93m35%\x1b[m [AC Connected  Charging];                                        \x1b[m\x1b[1m\x1b[33mLocale\x1b[m: \x1b[mC;                                        \x1b[m\x1b[1m\x1b[33mVulkan\x1b[m: \x1b[m1.4.323 - Intel Corporation [101.7088];                                        \x1b[m\x1b[1m\x1b[33mOpenGL\x1b[m: \x1b[m4.6.0 - Build 32.0.101.7088;                                        \x1b[m\x1b[1m\x1b[33mOpenCL\x1b[m: \x1b[m3.0 D3D12 Implementation;                                        \x1b[m\x1b[1m\x1b[33mTPM\x1b[m: \x1b[mI/O-port or MMIO TPM 2.0;                                        \x1b[m\x1b[1m\x1b[33mVersion\x1b[m: \x1b[mfastfetch 2.67.1 (x86_64);                                        ;                                        \x1b[m\x1b[30mÔľłÔľłÔľł\x1b[31mÔľłÔľłÔľł\x1b[32mÔľłÔľłÔľł\x1b[33mÔľłÔľłÔľł\x1b[34mÔľłÔľłÔľł\x1b[35mÔľłÔľłÔľł\x1b[36mÔľłÔľłÔľł\x1b[37mÔľłÔľłÔľł\x1b[m;                                        \x1b[90mÔľłÔľłÔľł\x1b[91mÔľłÔľłÔľł\x1b[92mÔľłÔľłÔľł\x1b[93mÔľłÔľłÔľł\x1b[94mÔľłÔľłÔľł\x1b[95mÔľłÔľłÔľł\x1b[96mÔľłÔľłÔľł\x1b[97mÔľłÔľłÔľł\x1b[m;\x1b[mUsing built-in specs.;COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe;COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe;Target: x86_64-w64-mingw32;Configured with: ../gcc-16.2.0/configure --prefix=/ucrt64 --with-sysroot=/ucrt64 --with-build-sysroot=D:/M/msys64/ucrt64 --with-local-prefix=/local --with-native-system-header-dir=/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c c++ ada fortran lto objc obj-c++ jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3  Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++;Thread model: posix;Supported LTO compression algorithms: zlib zstd;gcc version 16.2.0 (Rev3  Built by MSYS2 project) ;COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/;LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../../ucrt64/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../;C:/msys64/ucrt64/bin/../../ucrt64/lib/;COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47bc3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47bc3.'; C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\przem\\AppData\\Local\\Temp\\ccUOYFgd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic -o cmTC_47bc3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LC:/msys64/ucrt64/bin/../../ucrt64/lib -v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_47bc3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o;collect2 version 16.2.0;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\przem\\AppData\\Local\\Temp\\ccUOYFgd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/msys64/ucrt64/bin/../../ucrt64 -m i386pep -Bdynamic -o cmTC_47bc3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../../ucrt64/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -LC:/msys64/ucrt64/bin/../../ucrt64/lib -v CMakeFiles/cmTC_47bc3.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_47bc3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o;GNU ld (GNU Binutils) 2.47.20260726;COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47bc3.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_47bc3.';;]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

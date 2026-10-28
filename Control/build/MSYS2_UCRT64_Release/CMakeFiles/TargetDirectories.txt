@@ -1,0 +1,7 @@
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/Control.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/edit_cache.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/rebuild_cache.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/list_install_components.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/install.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/install/local.dir
+C:/Users/przem/Documents/Control/build/MSYS2_UCRT64_Release/CMakeFiles/install/strip.dir
